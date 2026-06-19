@@ -1,1 +1,68 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi proyecto final de HTML5</title>
+</head>
+<body>
+    <!-- 1. Primera etiqueta semántica: header -->
+    <header>
+        <h1>Bienvenidos a mi sitio web</h1>
+        <nav>
+            <ul>
+                <li><a href="#ciudades">Mis Ciudades</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <!-- 2. Segunda etiqueta semántica: main -->
+    <main>
+        <!-- 3. Tercera etiqueta semántica: section para lista -->
+        <section id="ciudades">
+            <h2>Mis tres ciudades favoritas</h2>
+            <p>A continuación, comparto una lista de lugares increíbles que me encantaría visitar.</p>
+            <!-- Lista con al menos tres elementos -->
+            <ul>
+                <li>París, Francia</li>
+                <li>Tokio, Japón</li>
+                <li>Nueva York, EE. UU.</li>
+            </ul>
+        </section>
+
+        <!-- 4. Cuarta etiqueta: section para galería de imágenes -->
+        <section id="galeria">
+            <h2>Galería de imágenes</h2>
+            <p>Conoce un poco sobre estas hermosas ciudades:</p>
+            <!-- Imágenes con URLs corregidas, atributo alt requerido y ancho/alto -->
+            <figure>
+                <img src="https://media.gettyimages.com/id/1425549035/es/foto/eiffel-tower.jpg?s=1024x1024&w=gi&k=20&c=dRclJcCDjuKNamYDrM30GIVlkjfsTrSrgrMQuvCypcI=" alt="Vista panorámica de la Torre Eiffel en París durante un atardecer" width="300" height="200">
+                <figcaption>La ciudad de la luz, París.</figcaption>
+            </figure>
+            
+            <figure>
+                <img src="https://www.callejeandoporelmundo.com/wp-content/uploads/2018/08/cruce-de-shibuya-miradores-tokio-5.jpg" alt="Cruce de peatones iluminado en el distrito de Shibuya en Tokio" width="300" height="200">
+                <figcaption>La vibrante ciudad de Tokio.</figcaption>
+            </figure>
+            
+            <figure>
+                <img src="https://images.unsplash.com/photo-1570304816841-906a17d7b067?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Edificios altos y rascacielos en el horizonte de Nueva York" width="300" height="200">
+                <figcaption>La gran manzana, Nueva York.</figcaption>
+            </figure>
+        </section>
+
+        <!-- 5. Quinta etiqueta: section para enlaces de interés -->
+        <section id="contacto">
+            <h2>Enlaces de interés</h2>
+            <p>Para aprender más sobre desarrollo web, puedes visitar el sitio oficial de <a href="https://www.w3.org" target="_blank" rel="noopener">The W3C</a>.</p>
+        </section>
+    </main>
+
+    <!-- 6. Etiqueta semántica adicional: footer -->
+    <footer>
+        <p>&copy; 2026 - Creado para el curso de Coursera</p>
+    </footer>
+</body>
+</html>
